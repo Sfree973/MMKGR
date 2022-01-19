@@ -26,4 +26,4 @@
   
  ### Rights statement
 
-Before the paper is officially published (SIGIR 2022), we do not accept any form of rewriting model methods for other published papers. At the same time, this code is for research use only, and any form of commercial application will not be accepted.
+Before the paper is officially published (SIGIR 2022, Full paper notifications: March 31, 2022), we do not accept any form of rewriting model methods for other published papers. At the same time, this code is for research use only, and any form of commercial application will not be accepted.
