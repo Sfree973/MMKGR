@@ -22,7 +22,7 @@
 ./experiment-rs.sh configs/<dataset>-rs.sh --inference <gpu-ID> --save_beam_search_paths
 ```
   
-  The purpose of our sharing is to respect the open source regulations of the web conf 2022 and feed back the results to the knowledge graph community.
+  The purpose of our sharing is to respect the open source regulations of the ICDE 2023 and feed back the results to the knowledge graph community.
   
  ### Rights statement
 
