@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-
+'''
+ configs of dataset_WN in MMKGR (Zheng et. al ICDE 2023)
+'''
 data_dir="data/WN9-IMG-TXT"
 model="point"
 group_examples_by_query="False"
