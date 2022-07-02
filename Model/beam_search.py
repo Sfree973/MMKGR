@@ -1,5 +1,5 @@
 '''
- Beam search on the graph (Zheng et. al ICDE 2023)
+ Beam search on the graph in MMKGR (Zheng et. al ICDE 2023)
 '''
 
 import torch
