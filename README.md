@@ -4,6 +4,24 @@
   
   In the structure of code, we not only share the MMKGR model(UAN+RL) and data processing code, but also compare the transformer and the transformer after combining UAN with the trans_UAN. Specifically, UAN+PG+knowledge graph+eval+experiments are our model. In order to better serve the multimodal community, the models(Trans_UAN and Transformer) are rewritten multimodal fusion models, which are suitable for multimodal feature fusion of multimodal tasks such as VQA, KGR and Image Captioning. Configuration files (. SH) and data processing files (adj_list, type2id, relation2id, entity2id, etc.) are also uploaded completely. For your convenience, the training and testing commands of the code are as follows：
   
+  ### Navigation Support
+  Code
+├── Model
+│    ├── UAN
+│    ├──  RL
+│    │    ├── Environment
+│    │    └── Baseline
+     ├──experiment.sh
+     ├──requirements.txt
+├── Data
+│    ├── Grapher
+│    ├── Batcher
+│    └── Data Preprocessing scripts
+│            ├── create_vocab
+│            ├── create_graph
+│            ├── Trainer
+│            └── Baseline
+  
   ### Train and test models
   1. Train embedding-based models
 ```
