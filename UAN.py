@@ -6,10 +6,10 @@ import torch.nn as nn
 
 
 
-class TransformerBlock(nn.Module):
+class UANBlock(nn.Module):
 
     def __init__(self, input_size, d_k=16, d_v=16, n_heads=8, is_layer_norm=False, attn_dropout=0.1):
-        super(TransformerBlock, self).__init__()
+        super(UANBlock, self).__init__()
         self.n_heads = n_heads
         self.d_k = d_k if d_k is not None else input_size
         self.d_v = d_v if d_v is not None else input_size
