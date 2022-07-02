@@ -1,5 +1,5 @@
 '''
- Policy gradient with 3D reward (Zheng et. al ICDE 2023)
+ Policy gradient with 3D reward in MMKGR (Zheng et. al ICDE 2023)
 '''
 
 
