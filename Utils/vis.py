@@ -1,4 +1,7 @@
 
+'''
+visualized tool in MMKGR (Zheng et. al ICDE 2023)
+'''
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
