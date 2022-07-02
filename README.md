@@ -16,6 +16,9 @@
     ├──  utils
     │      ├── ops.py
     │      └── vis.py
+    ├──  configs
+    │      ├── WN9.sh
+    │      └── FB.sh    
     ├──data_utils.py
     ├──experiment.sh    
     ├──README.md
