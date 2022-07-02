@@ -28,11 +28,11 @@
 ```
 ./experiment-emb.sh configs/<dataset>-<emb_model>.sh --train <gpu-ID>
 ```
-2. Train RL models (policy gradient)
+2. Train our model
 ```
 ./experiment.sh configs/<dataset>.sh --train <gpu-ID>
 ```
-3. Test RL models (policy gradient + reward shaping)
+3. Test our model 
 ```
 ./experiment.sh configs/<dataset>.sh --inference <gpu-ID>
 ```
