@@ -4,10 +4,11 @@ data_dir="data/WN9-IMG"
 model="point"
 group_examples_by_query="False"
 use_action_space_bucketing="True"
-
 bandwidth=400
 entity_dim=200
 relation_dim=200
+image_dim=4096
+text_dim=1000
 history_dim=200
 history_num_layers=3
 num_rollouts=1
