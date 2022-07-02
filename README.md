@@ -21,8 +21,11 @@
     │      ├── WN9.sh
     │      └── FB.sh    
     ├──data_utils.py
-    ├──experiment.sh    
+    ├──experiment.sh  
+    ├──eval.py
     ├──README.md
+    ├──entity3typeid.pkl    
+    ├──adj_list.pkl
     ├──knowledge_graph.py
     └──requirements.txt
  ```
