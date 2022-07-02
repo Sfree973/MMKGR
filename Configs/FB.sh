@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-
+'''
+ config of dataset_FB in MMKGR (Zheng et. al in ICDE 2023)
+'''
 data_dir="data/FB-IMG-TXT"
 model="point"
 group_examples_by_query="False"
