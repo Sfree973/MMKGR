@@ -1,5 +1,5 @@
 '''
- Graph Search Policy Network (Zheng et. al ICDE 2023)
+ Graph Search Policy Network in MMKGR (Zheng et. al ICDE 2023)
 '''
 
 
