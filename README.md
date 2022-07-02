@@ -12,16 +12,9 @@ Code
 │    ├──  RL
 │    │    ├── Environment
 │    │    └── Baseline
-      ├──experiment.sh
-      ├──requirements.txt
-├── Data
-│    ├── Grapher
-│    ├── Batcher
-│    └── Data Preprocessing scripts
-│            ├── create_vocab
-│            ├── create_graph
-│            ├── Trainer
-│            └── Baseline
+│    ├──experiment.sh
+│    ├──requirements.txt
+
   
  ```
   
