@@ -6,16 +6,20 @@
   
   ### Navigation Support
  ```
-Code
-├── Model
-│    ├── UAN
-│    ├──  RL
-│    │    ├── Environment
-│    │    └── Baseline
-│    ├──experiment.sh
-│    ├──requirements.txt
-
-  
+── MMKGR
+    ├── UAN
+    ├──  RL
+    │    ├── pg.py
+    │    ├── pn.py
+    │    ├── rs.py
+    │    └── beam_search.py
+    ├──  utils
+    │      ├── ops.py
+    │      └── vis.py
+    ├──data_utils.py
+    ├──experiment.sh    
+    ├──knowledge_graph.py
+    └──requirements.txt
  ```
   
   ### Train and test models
