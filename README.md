@@ -6,17 +6,18 @@
   
   ### Navigation Support
  ```
-── MMKGR
-    ├── UAN
-    ├──  RL
-    │    ├── pg.py
-    │    ├── pn.py
-    │    ├── rs.py
-    │    └── beam_search.py
-    ├──  utils
+── MMKGR_code
+    ├── Model
+    │      ├── UAN
+    │      └──  RL
+    │           ├── pg.py
+    │           ├── pn.py
+    │           ├── rs.py
+    │           └── beam_search.py
+    ├──  Utils
     │      ├── ops.py
     │      └── vis.py
-    ├──  configs
+    ├──  Configs
     │      ├── WN9.sh
     │      └── FB.sh    
     ├──data_utils.py
