@@ -1,5 +1,5 @@
 '''
- Policy gradient_REINFORCE algorithm training and inference (Zheng et. al ICDE 2023)
+ Policy gradient_REINFORCE algorithm training and inference in MMKGR(Zheng et. al ICDE 2023)
 '''
 
 import torch
