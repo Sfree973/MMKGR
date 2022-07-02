@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 '''
- config of dataset_FB in MMKGR (Zheng et. al in ICDE 2023)
+ configs of dataset_FB in MMKGR (Zheng et. al ICDE 2023)
 '''
 data_dir="data/FB-IMG-TXT"
 model="point"
