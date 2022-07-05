@@ -1,8 +1,7 @@
   ### MMKGR
 
   This is the pre-release code following paper: MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning (ICDE, research paper). The purpose of our sharing is to respect the open source regulations of the ICDE 2023 and feed back the results to the knowledge graph community.
-  
-  In the structure of code, we not only share the MMKGR model(UAN+RL) and data processing code, but also compare the transformer and the transformer after combining UAN with the trans_UAN. Specifically, UAN+PG+knowledge graph+eval+experiments are our model. In order to better serve the multimodal community, the models(Trans_UAN and Transformer) are rewritten multimodal fusion models, which are suitable for multimodal feature fusion of multimodal tasks such as VQA, KGR and Image Captioning. Configuration files (. SH) and data processing files (adj_list, type2id, relation2id, entity2id, etc.) are also uploaded completely. For your convenience, the training and testing commands of the code are as follows：
+  We appreciate reviewer #1's constructive suggestion to make the code structure clearer, consistents with our purpose of sharing MMKGR for the KGR community. In the structure of code, we share not only the MMKGR model(UAN+RL), but also some auxiliary files such as data processing files(e.g., entity2typeid.py ,adj_list.py, etc.), toolkits(ops.py, vis.py) and configuration files (. sh). In response to the reviewer#1's request, we try to present code structure of our model as intuitively and concisely as possible. Navigation support is shown below.
   
   ### Navigation Support
  ```
@@ -29,7 +28,7 @@
     ├──knowledge_graph.py
     └──requirements.txt
  ```
-  
+  Furthermore, for your convenience, the training and testing commands of the code are as follows： 
   ### Train and test models
   1. Train embedding-based models
 ```
