@@ -23,7 +23,7 @@
     ├──experiment.sh  
     ├──eval.py
     ├──README.md
-    ├──entity3typeid.pkl    
+    ├──entity2typeid.pkl    
     ├──adj_list.pkl
     ├──knowledge_graph.py
     └──requirements.txt
