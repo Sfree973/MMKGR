@@ -48,7 +48,9 @@
 ./experiment-rs.sh configs/<dataset>-rs.sh --inference <gpu-ID> --save_beam_search_paths
 ```
   
-  
+###Table 1. The value of MRR with different k settings of Rdistance on WN9-IMG-TXT.
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/42330405/179229085-d3a4379b-1e83-45b7-b76a-de32642ed56f.png">
+
   
  ### Rights statement
 
