@@ -53,6 +53,7 @@
 O3:The $R_{distance}$ is set to different values based on $k$. Can we set it to $\frac{1}{k^2}$ or $- \frac{1}{k^3}$. Please explain the reasons.
 Response: The heuristic scheme in manuscript was selected and determined through the following experiments (i.e., Table 1 and Table 2). We can observe that
 the reasoning performance of our k settings presented in manuscript is the best. Due to space constraints and this is not the key experimental setting, we did not present following tables in the original manuscript.
+
 <img width="493" alt="image" src="https://user-images.githubusercontent.com/42330405/179395648-92885b54-56dd-4930-8a4c-8ef0f96e1600.png">
 
 
