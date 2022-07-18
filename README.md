@@ -60,6 +60,7 @@ Additionally, based on the fact that humans are often penalized for making wrong
 <img width="158" alt="image" src="https://user-images.githubusercontent.com/42330405/179471110-41241f18-148d-4524-9bc4-be3f78b19fac.png">
 
 We have the following comparison models: adding the visited reward (i.e., 3DV) to the 3D mechanism, adding the obstacle penalty (i.e., 3DO) to the 3D mechanism, and a mix of five rewards (i.e., ALL). The experimental results are shown in Figure 1 and Figure 2. After adjusting to the optimal parameters, the performance of the comparison models did not improve. 
+
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/42330405/179471220-483390f0-035b-40a3-9ed1-9a9c189e4883.png">
 
 <img width="605" alt="image" src="https://user-images.githubusercontent.com/42330405/179471311-ae5f3cef-61ba-4b5f-bcf1-00df29d607d4.png">
