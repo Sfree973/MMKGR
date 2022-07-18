@@ -47,6 +47,22 @@
 ```
 ./experiment-rs.sh configs/<dataset>-rs.sh --inference <gpu-ID> --save_beam_search_paths
 ```
+
+###O3 from Reviewer 1
+
+	The experimental validation (which part in the new version??)
+Inspired by intrinsically motivated reinforcement learning, we designed a visited reward, which can discourages reasoning agent to revisit same entities within a path. Specifically, the visited reward is defined as follows:
+   
+   <img width="133" alt="image" src="https://user-images.githubusercontent.com/42330405/179471044-3cc6d2e6-b6f0-4b2f-bb16-d01d63660e4c.png">
+
+where n(et) is the total number of visits fir the entity e at reasoning step t.
+Additionally, based on the fact that humans are often penalized for making wrong decisions, we design an obstacle penalty (negative reward) to discourage the agent from inferring the source entity as the answer (i.e., a loop,). Specifically, when the answer is the source entity of the triple query eT = es, the obstacle penalty is defined as follows:
+<img width="158" alt="image" src="https://user-images.githubusercontent.com/42330405/179471110-41241f18-148d-4524-9bc4-be3f78b19fac.png">
+
+We have the following comparison models: adding the visited reward (i.e., 3DV) to the 3D mechanism, adding the obstacle penalty (i.e., 3DO) to the 3D mechanism, and a mix of five rewards (i.e., ALL). The experimental results are shown in Figure 1 and Figure 2. After adjusting to the optimal parameters, the performance of the comparison models did not improve. 
+<img width="608" alt="image" src="https://user-images.githubusercontent.com/42330405/179471220-483390f0-035b-40a3-9ed1-9a9c189e4883.png">
+
+<img width="605" alt="image" src="https://user-images.githubusercontent.com/42330405/179471311-ae5f3cef-61ba-4b5f-bcf1-00df29d607d4.png">
   
 ###O3 from Reviewer 4
 
