@@ -63,7 +63,8 @@ We have the following comparison models: adding the visited reward (i.e., 3DV) t
 
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/42330405/179471220-483390f0-035b-40a3-9ed1-9a9c189e4883.png">
 
-<img width="605" alt="image" src="https://user-images.githubusercontent.com/42330405/179471311-ae5f3cef-61ba-4b5f-bcf1-00df29d607d4.png">
+<img width="204" alt="image" src="https://user-images.githubusercontent.com/42330405/179664900-a635929f-6edb-4449-ba8d-3b5c4f0e0d02.png">
+
   
 ###O3 from Reviewer 4
 
