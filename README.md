@@ -49,21 +49,28 @@
 ```
 
 ###O3 from Reviewer 1
-
-	The experimental validation (which part in the new version??)
+	
 Inspired by intrinsically motivated reinforcement learning, we designed a visited reward, which can discourages reasoning agent to revisit same entities within a path. Specifically, the visited reward is defined as follows:
    
    <img width="133" alt="image" src="https://user-images.githubusercontent.com/42330405/179471044-3cc6d2e6-b6f0-4b2f-bb16-d01d63660e4c.png">
 
 where n(et) is the total number of visits fir the entity e at reasoning step t.
+
 Additionally, based on the fact that humans are often penalized for making wrong decisions, we design an obstacle penalty (negative reward) to discourage the agent from inferring the source entity as the answer (i.e., a loop,). Specifically, when the answer is the source entity of the triple query eT = es, the obstacle penalty is defined as follows:
 <img width="158" alt="image" src="https://user-images.githubusercontent.com/42330405/179471110-41241f18-148d-4524-9bc4-be3f78b19fac.png">
 
 We have the following comparison models: adding the visited reward (i.e., 3DV) to the 3D mechanism, adding the obstacle penalty (i.e., 3DO) to the 3D mechanism, and a mix of five rewards (i.e., ALL). The experimental results are shown in Figure 1 and Figure 2. After adjusting to the optimal parameters, the performance of the comparison models did not improve. 
 
-<img width="608" alt="image" src="https://user-images.githubusercontent.com/42330405/179471220-483390f0-035b-40a3-9ed1-9a9c189e4883.png">
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/42330405/179688473-6989227f-d545-47c6-8b10-ed8154a0c3ba.png">
 
-<img width="798" alt="image" src="https://user-images.githubusercontent.com/42330405/179665249-b87a8c9b-a6fa-4c25-aa2e-a8467f5e783b.png">
+<img width="546" alt="image" src="https://user-images.githubusercontent.com/42330405/179688576-3aabb9c7-4011-4a10-996b-6e9858d7e502.png">
+
+
+The above-mentioned reward mechanisms are widely used in RL area. Intrinsically motivated reinforcement learning [1][2] and obstacle penalty [3][4] related studies are shown below：
+[1] Singh S, Lewis R L, Barto A G, et al. Intrinsically motivated reinforcement learning: An evolutionary perspective[J]. IEEE Transactions on Autonomous Mental Development, 2010, 2(2): 70-82.
+[2]Chentanez N, Barto A, Singh S. Intrinsically motivated reinforcement learning[J]. Advances in neural information processing systems, 2004, 17.
+[3]Ma Y J, Shen A, Bastani O, et al. Conservative and adaptive penalty for model-based safe reinforcement learning[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2022, 36(5): 5404-5412.
+[4]Miyazaki K, Kobayashi S. Reinforcement learning for penalty avoiding policy making[C]//Smc 2000 conference proceedings. 2000 ieee international conference on systems, man and cybernetics.'cybernetics evolving to systems, humans, organizations, and their complex interactions'(cat. no. 0. IEEE, 2000, 1: 206-211.
 
   
 ###O3 from Reviewer 4
