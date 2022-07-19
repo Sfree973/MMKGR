@@ -62,9 +62,10 @@ Additionally, based on the fact that humans are often penalized for making wrong
 
 We have the following comparison models: adding the visited reward (i.e., 3DV) to the 3D mechanism, adding the obstacle penalty (i.e., 3DO) to the 3D mechanism, and a mix of five rewards (i.e., ALL). The experimental results are shown in Figure 1 and Figure 2. After adjusting to the optimal parameters, the performance of the comparison models did not improve. 
 
-<img width="643" alt="image" src="https://user-images.githubusercontent.com/42330405/179750152-b444bdef-f8c3-4b56-b0c2-4754465f809a.png">
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/42330405/179750496-733b76dd-799c-4213-b24e-9cfda13053d1.png">
 
-<img width="546" alt="image" src="https://user-images.githubusercontent.com/42330405/179688576-3aabb9c7-4011-4a10-996b-6e9858d7e502.png">
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/42330405/179750600-8e26ef0a-98d3-4b47-bdc9-9cc8bbf6e88c.png">
+
 
 
 The above-mentioned reward mechanisms are widely used in RL area. Intrinsically motivated reinforcement learning [1][2] and obstacle penalty [3][4] related studies are shown below：
