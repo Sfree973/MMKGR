@@ -57,6 +57,7 @@ Inspired by intrinsically motivated reinforcement learning, we designed a visite
 where n(et) is the total number of visits fir the entity e at reasoning step t.
 
 Additionally, based on the fact that humans are often penalized for making wrong decisions, we design an obstacle penalty (negative reward) to discourage the agent from inferring the source entity as the answer (i.e., a loop,). Specifically, when the answer is the source entity of the triple query eT = es, the obstacle penalty is defined as follows:
+
 <img width="158" alt="image" src="https://user-images.githubusercontent.com/42330405/179471110-41241f18-148d-4524-9bc4-be3f78b19fac.png">
 
 We have the following comparison models: adding the visited reward (i.e., 3DV) to the 3D mechanism, adding the obstacle penalty (i.e., 3DO) to the 3D mechanism, and a mix of five rewards (i.e., ALL). The experimental results are shown in Figure 1 and Figure 2. After adjusting to the optimal parameters, the performance of the comparison models did not improve. 
@@ -67,6 +68,7 @@ We have the following comparison models: adding the visited reward (i.e., 3DV) t
 
 
 The above-mentioned reward mechanisms are widely used in RL area. Intrinsically motivated reinforcement learning [1][2] and obstacle penalty [3][4] related studies are shown below：
+
 [1] Singh S, Lewis R L, Barto A G, et al. Intrinsically motivated reinforcement learning: An evolutionary perspective[J]. IEEE Transactions on Autonomous Mental Development, 2010, 2(2): 70-82.
 
 [2]Chentanez N, Barto A, Singh S. Intrinsically motivated reinforcement learning[J]. Advances in neural information processing systems, 2004, 17.
