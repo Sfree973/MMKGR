@@ -68,8 +68,11 @@ We have the following comparison models: adding the visited reward (i.e., 3DV) t
 
 The above-mentioned reward mechanisms are widely used in RL area. Intrinsically motivated reinforcement learning [1][2] and obstacle penalty [3][4] related studies are shown below：
 [1] Singh S, Lewis R L, Barto A G, et al. Intrinsically motivated reinforcement learning: An evolutionary perspective[J]. IEEE Transactions on Autonomous Mental Development, 2010, 2(2): 70-82.
+
 [2]Chentanez N, Barto A, Singh S. Intrinsically motivated reinforcement learning[J]. Advances in neural information processing systems, 2004, 17.
+
 [3]Ma Y J, Shen A, Bastani O, et al. Conservative and adaptive penalty for model-based safe reinforcement learning[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2022, 36(5): 5404-5412.
+
 [4]Miyazaki K, Kobayashi S. Reinforcement learning for penalty avoiding policy making[C]//Smc 2000 conference proceedings. 2000 ieee international conference on systems, man and cybernetics.'cybernetics evolving to systems, humans, organizations, and their complex interactions'(cat. no. 0. IEEE, 2000, 1: 206-211.
 
   
